@@ -1,0 +1,124 @@
+h1{
+    font-family: Calibri;
+    font-size: 17px;
+    color :#2c3e5;
+}
+
+body{
+    font-family: calibri;
+    margin : 0px;
+    margin-left: 90px;
+}
+
+.btn{
+    font-family: Calibri;
+    font-size : 15px;
+    color :white ;
+    background-color:#2ecc71 ;
+    border : 1px;
+    border-radius: 3px;
+    padding : 10px;
+    text-decoration: none;
+    width : 100px;
+    
+}
+.btn:hover{ 
+    background-color:#27ae60 ;
+}
+.alert{
+    color : #721c24;
+    background-color :#f8d7da;
+    border : 1px; 
+    border-color: #f5c6cb;
+    border-radius: 3px;
+    padding : 10px
+}
+.list-group{
+    list-style : none;
+    font-family: Calibri;
+    width: 250px;
+}
+    .list-group-item{
+    border : 1px solid;
+    border-color: #DFDFDF;
+    padding : 10px;
+}
+    .list-group-item img{
+    border-color: #DFDFDF;
+    justify-content: center;
+}
+
+    .list-group-item:first-child {
+    border-top-left-radius : 5px;
+    border-top-right-radius : 5px;
+    border-bottom : 0px;
+}
+
+    .list-group-item:nth-child(3) {
+    border-top : 0px;    
+    border-bottom : 0px;
+}
+
+    .list-group-item:nth-child(4) {
+    border-bottom : 0px;
+}
+
+    .list-group-item:last-child {
+    border-bottom-left-radius : 5px;
+    border-bottom-right-radius : 5px;
+}
+.card {
+    border : 1px solid;
+    border-color: #DFDFDF;
+    width: 300px; 
+    border-bottom-left-radius : 5px;
+    border-bottom-right-radius : 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+    
+}
+
+    .img {
+        background-image: url("sun_title.jpg");
+        background-size : cover;
+        background-position: center center;
+        height: 250px;
+        margin: 0px;
+        padding: 0px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px; 
+    }
+
+    .contenu {
+        display : flex;
+        flex-direction: column;
+        justify-content: center;
+        padding : 10px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius : 5px;
+        border-bottom-right-radius : 5px; 
+
+    }
+
+.navbar
+{
+    display : flex;
+    list-style : none;
+    background-color: #f8f9fa;
+    color :#2c3e50;
+}
+.navbar-item
+{
+    padding :3px;
+}
+
+@media (max-width: 700px) { 
+
+    .navbar{
+    display : flex;
+    flex-direction : column;
+    list-style : none;
+    background-color: #f8f9fa;
+    color :#2c3e50;
+}
