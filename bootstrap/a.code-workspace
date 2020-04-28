@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../Documents/11. Code_academy/Handz"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "bootstrap"
+    }
+}
