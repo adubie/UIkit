@@ -1,0 +1,20 @@
+.carousel-inner {
+    height : 500px;
+}
+
+.carousel-item-active {
+    height: 500px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+H5{
+    font-size: 40px;
+}
+
+.first-part{
+    display : flex;
+    flex-direction : row;
+}
